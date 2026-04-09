@@ -1,0 +1,15 @@
+{
+  "name": "ci-cd-first",
+  "version": "1.0.0",
+  "description": "Minimal Node project with CI/CD pipeline for pull requests.",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "lint": "node ./scripts/lint.js",
+    "test": "node --test",
+    "build": "node ./scripts/build.js"
+  }
+}
